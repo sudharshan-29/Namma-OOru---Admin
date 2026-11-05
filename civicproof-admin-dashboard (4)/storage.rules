@@ -1,0 +1,90 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Default Deny: Least-privilege architecture
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isEmailVerified() {
+      return ('email_verified' in request.auth.token) && request.auth.token.email_verified == true;
+    }
+
+    // Server-verified administrator rule:
+    // Requires authenticated session, verified email, and admin identity or claim
+    function isAdmin() {
+      return isSignedIn() && isEmailVerified() && (
+        (('email' in request.auth.token) && request.auth.token.email == 'dhivyadharshinivijay@gmail.com') ||
+        (('admin' in request.auth.token) && request.auth.token.admin == true)
+      );
+    }
+
+    // Strict image format and size validation:
+    // Only JPEG, PNG, and WebP images up to 10MB are permitted
+    function isValidImage() {
+      return request.resource.contentType in ['image/jpeg', 'image/png', 'image/webp'] &&
+             request.resource.size > 0 &&
+             request.resource.size <= 10 * 1024 * 1024;
+    }
+
+    // Helper: Verify complaint ownership via trusted Firestore record
+    // Client-supplied metadata is NEVER trusted as proof of ownership.
+    function isComplaintOwner(complaintId) {
+      return firestore.exists(/databases/(default)/documents/complaints/$(complaintId)) &&
+             firestore.get(/databases/(default)/documents/complaints/$(complaintId)).data.reporterId == request.auth.uid;
+    }
+
+    // 1. Original complaint photos
+    // Path: /complaints/{complaintId}/{photoFile}
+    // Protected: Ordinary authenticated users CANNOT read other users' private original images.
+    // Original photos are strictly private: readable only by verified administrators.
+    match /complaints/{complaintId}/{photoFile} {
+      // Original images are private; only authorized administrators can read directly
+      allow read: if isAdmin();
+      
+      // Ownership Enforcement:
+      // Only administrators or the verified owner of the complaint (via Firestore) can upload.
+      // Arbitrary authenticated users are strictly prevented from uploading to another citizen's complaint path.
+      // Overwrites and deletes are prohibited.
+      allow create: if isSignedIn() && isValidImage() && (
+        isAdmin() || isComplaintOwner(complaintId)
+      );
+      
+      // Ordinary users cannot overwrite, replace, or delete existing files
+      allow update, delete: if isAdmin();
+    }
+
+    // 2. Department Resolution evidence photos
+    // Path: /resolution/{complaintId}/{photoFile}
+    // Read: Restricted to authorized administrators
+    // Write: Restricted to authorized administrators / field officers
+    match /resolution/{complaintId}/{photoFile} {
+      allow read: if isAdmin();
+      allow create: if isAdmin() && isValidImage();
+      allow update, delete: if isAdmin();
+    }
+
+    // 3. Public sanitized media
+    // Path: /public/{photoFile}
+    // Public read for general sanitized assets
+    // Write restricted to administrators
+    match /public/{photoFile} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidImage();
+    }
+
+    // 4. Redacted complaint photos explicitly permitted
+    // Path: /redacted/{complaintId}/{photoFile}
+    // Public/citizen read for verified redacted photos
+    // Write strictly restricted to authorized administrators
+    match /redacted/{complaintId}/{photoFile} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidImage();
+    }
+  }
+}

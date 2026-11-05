@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "LOG-1043-1",
+    "complaintId": "CP-CHN-2026-1043",
+    "timestamp": "2026-10-07T11:00:00.000Z",
+    "action": "Complaint Registered",
+    "actor": "System (Citizen Portal)",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-1043-2",
+    "complaintId": "CP-CHN-2026-1043",
+    "timestamp": "2026-10-08T10:15:00.000Z",
+    "action": "Resolution Verified & Approved",
+    "actor": "Er. K. Sivakumar (Admin)",
+    "previousValue": "Awaiting Admin Verification",
+    "newValue": "Resolved"
+  },
+  {
+    "id": "LOG-1042-1",
+    "complaintId": "CP-CHN-2026-1042",
+    "timestamp": "2026-10-08T14:20:00.000Z",
+    "action": "Complaint Registered",
+    "actor": "System (Anonymous Reporter)",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-1042-2",
+    "complaintId": "CP-CHN-2026-1042",
+    "timestamp": "2026-10-08T14:22:00.000Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing Service",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-1041-1",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-09T08:15:00.000Z",
+    "action": "Complaint Registered",
+    "actor": "System (Citizen Portal)",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-1041-2",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-09T08:16:30.000Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru AI/Rule Engine",
+    "previousValue": "Medium",
+    "newValue": "Critical",
+    "reason": "Keywords matched \"cave-in\", \"bus route\", \"traffic\" in dense commercial zone."
+  },
+  {
+    "id": "LOG-1041-3",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-09T08:18:00.000Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing Service",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-1041-4",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-09T10:30:00.000Z",
+    "action": "Status Updated",
+    "actor": "Junior Engineer, Zone 10 Roads",
+    "previousValue": "Assigned",
+    "newValue": "In Progress"
+  },
+  {
+    "id": "LOG-1041-5",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-09T17:40:00.000Z",
+    "action": "Repair Evidence Submitted",
+    "actor": "Supervisor Arumugam, Roads Dept",
+    "previousValue": "In Progress",
+    "newValue": "Awaiting Admin Verification"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6675-1",
+    "complaintId": "CP-CHN-2026-6675",
+    "timestamp": "2026-10-11T01:51:10.257Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6675-2",
+    "complaintId": "CP-CHN-2026-6675",
+    "timestamp": "2026-10-11T01:51:10.257Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': High threat to public health and municipal water loss."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6675-3",
+    "complaintId": "CP-CHN-2026-6675",
+    "timestamp": "2026-10-11T01:51:10.257Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6776-1",
+    "complaintId": "CP-CHN-2026-6776",
+    "timestamp": "2026-10-11T01:51:10.268Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6776-2",
+    "complaintId": "CP-CHN-2026-6776",
+    "timestamp": "2026-10-11T01:51:10.268Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6776-3",
+    "complaintId": "CP-CHN-2026-6776",
+    "timestamp": "2026-10-11T01:51:10.268Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6947-1",
+    "complaintId": "CP-CHN-2026-6947",
+    "timestamp": "2026-10-11T01:51:10.272Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6947-2",
+    "complaintId": "CP-CHN-2026-6947",
+    "timestamp": "2026-10-11T01:51:10.272Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6947-3",
+    "complaintId": "CP-CHN-2026-6947",
+    "timestamp": "2026-10-11T01:51:10.272Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2150-1",
+    "complaintId": "CP-CHN-2026-2150",
+    "timestamp": "2026-10-11T01:51:10.642Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2150-2",
+    "complaintId": "CP-CHN-2026-2150",
+    "timestamp": "2026-10-11T01:51:10.642Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2150-3",
+    "complaintId": "CP-CHN-2026-2150",
+    "timestamp": "2026-10-11T01:51:10.642Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7157-1",
+    "complaintId": "CP-CHN-2026-7157",
+    "timestamp": "2026-10-11T01:51:10.645Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7157-2",
+    "complaintId": "CP-CHN-2026-7157",
+    "timestamp": "2026-10-11T01:51:10.645Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7157-3",
+    "complaintId": "CP-CHN-2026-7157",
+    "timestamp": "2026-10-11T01:51:10.645Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7644-1",
+    "complaintId": "CP-CHN-2026-7644",
+    "timestamp": "2026-10-11T02:06:55.286Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7644-2",
+    "complaintId": "CP-CHN-2026-7644",
+    "timestamp": "2026-10-11T02:06:55.286Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7644-3",
+    "complaintId": "CP-CHN-2026-7644",
+    "timestamp": "2026-10-11T02:06:55.286Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3575-1",
+    "complaintId": "CP-CHN-2026-3575",
+    "timestamp": "2026-10-11T02:06:55.299Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3575-2",
+    "complaintId": "CP-CHN-2026-3575",
+    "timestamp": "2026-10-11T02:06:55.299Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3575-3",
+    "complaintId": "CP-CHN-2026-3575",
+    "timestamp": "2026-10-11T02:06:55.299Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3864-1",
+    "complaintId": "CP-CHN-2026-3864",
+    "timestamp": "2026-10-11T02:06:55.309Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3864-2",
+    "complaintId": "CP-CHN-2026-3864",
+    "timestamp": "2026-10-11T02:06:55.309Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3864-3",
+    "complaintId": "CP-CHN-2026-3864",
+    "timestamp": "2026-10-11T02:06:55.309Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4109-1",
+    "complaintId": "CP-CHN-2026-4109",
+    "timestamp": "2026-10-11T02:06:55.689Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4109-2",
+    "complaintId": "CP-CHN-2026-4109",
+    "timestamp": "2026-10-11T02:06:55.689Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4109-3",
+    "complaintId": "CP-CHN-2026-4109",
+    "timestamp": "2026-10-11T02:06:55.689Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3808-1",
+    "complaintId": "CP-CHN-2026-3808",
+    "timestamp": "2026-10-11T02:06:55.701Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3808-2",
+    "complaintId": "CP-CHN-2026-3808",
+    "timestamp": "2026-10-11T02:06:55.701Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3808-3",
+    "complaintId": "CP-CHN-2026-3808",
+    "timestamp": "2026-10-11T02:06:55.701Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3239-1",
+    "complaintId": "CP-CHN-2026-3239",
+    "timestamp": "2026-10-11T02:08:06.267Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3239-2",
+    "complaintId": "CP-CHN-2026-3239",
+    "timestamp": "2026-10-11T02:08:06.267Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3239-3",
+    "complaintId": "CP-CHN-2026-3239",
+    "timestamp": "2026-10-11T02:08:06.267Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2728-1",
+    "complaintId": "CP-CHN-2026-2728",
+    "timestamp": "2026-10-11T02:09:21.032Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2728-2",
+    "complaintId": "CP-CHN-2026-2728",
+    "timestamp": "2026-10-11T02:09:21.032Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2728-3",
+    "complaintId": "CP-CHN-2026-2728",
+    "timestamp": "2026-10-11T02:09:21.032Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1475-1",
+    "complaintId": "CP-CHN-2026-1475",
+    "timestamp": "2026-10-11T02:09:31.246Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1475-2",
+    "complaintId": "CP-CHN-2026-1475",
+    "timestamp": "2026-10-11T02:09:31.246Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1475-3",
+    "complaintId": "CP-CHN-2026-1475",
+    "timestamp": "2026-10-11T02:09:31.246Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2288-1",
+    "complaintId": "CP-CHN-2026-2288",
+    "timestamp": "2026-10-11T02:09:31.258Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2288-2",
+    "complaintId": "CP-CHN-2026-2288",
+    "timestamp": "2026-10-11T02:09:31.258Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2288-3",
+    "complaintId": "CP-CHN-2026-2288",
+    "timestamp": "2026-10-11T02:09:31.258Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6306-1",
+    "complaintId": "CP-CHN-2026-6306",
+    "timestamp": "2026-10-11T02:09:31.270Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6306-2",
+    "complaintId": "CP-CHN-2026-6306",
+    "timestamp": "2026-10-11T02:09:31.270Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-6306-3",
+    "complaintId": "CP-CHN-2026-6306",
+    "timestamp": "2026-10-11T02:09:31.270Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-8585-1",
+    "complaintId": "CP-CHN-2026-8585",
+    "timestamp": "2026-10-11T02:09:31.650Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-8585-2",
+    "complaintId": "CP-CHN-2026-8585",
+    "timestamp": "2026-10-11T02:09:31.650Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-8585-3",
+    "complaintId": "CP-CHN-2026-8585",
+    "timestamp": "2026-10-11T02:09:31.650Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4758-1",
+    "complaintId": "CP-CHN-2026-4758",
+    "timestamp": "2026-10-11T02:09:31.662Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4758-2",
+    "complaintId": "CP-CHN-2026-4758",
+    "timestamp": "2026-10-11T02:09:31.662Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4758-3",
+    "complaintId": "CP-CHN-2026-4758",
+    "timestamp": "2026-10-11T02:09:31.662Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4977-1",
+    "complaintId": "CP-CHN-2026-4977",
+    "timestamp": "2026-10-11T02:39:15.464Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4977-2",
+    "complaintId": "CP-CHN-2026-4977",
+    "timestamp": "2026-10-11T02:39:15.464Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4977-3",
+    "complaintId": "CP-CHN-2026-4977",
+    "timestamp": "2026-10-11T02:39:15.464Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5437-1",
+    "complaintId": "CP-CHN-2026-5437",
+    "timestamp": "2026-10-11T02:39:35.628Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5437-2",
+    "complaintId": "CP-CHN-2026-5437",
+    "timestamp": "2026-10-11T02:39:35.628Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5437-3",
+    "complaintId": "CP-CHN-2026-5437",
+    "timestamp": "2026-10-11T02:39:35.628Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9626-1",
+    "complaintId": "CP-CHN-2026-9626",
+    "timestamp": "2026-10-11T02:39:35.641Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9626-2",
+    "complaintId": "CP-CHN-2026-9626",
+    "timestamp": "2026-10-11T02:39:35.641Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9626-3",
+    "complaintId": "CP-CHN-2026-9626",
+    "timestamp": "2026-10-11T02:39:35.641Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5465-1",
+    "complaintId": "CP-CHN-2026-5465",
+    "timestamp": "2026-10-11T02:39:35.653Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5465-2",
+    "complaintId": "CP-CHN-2026-5465",
+    "timestamp": "2026-10-11T02:39:35.653Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5465-3",
+    "complaintId": "CP-CHN-2026-5465",
+    "timestamp": "2026-10-11T02:39:35.653Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3250-1",
+    "complaintId": "CP-CHN-2026-3250",
+    "timestamp": "2026-10-11T02:39:36.033Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3250-2",
+    "complaintId": "CP-CHN-2026-3250",
+    "timestamp": "2026-10-11T02:39:36.033Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-3250-3",
+    "complaintId": "CP-CHN-2026-3250",
+    "timestamp": "2026-10-11T02:39:36.033Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5782-1",
+    "complaintId": "CP-CHN-2026-5782",
+    "timestamp": "2026-10-11T02:39:36.046Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5782-2",
+    "complaintId": "CP-CHN-2026-5782",
+    "timestamp": "2026-10-11T02:39:36.046Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5782-3",
+    "complaintId": "CP-CHN-2026-5782",
+    "timestamp": "2026-10-11T02:39:36.046Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1907-1",
+    "complaintId": "CP-CHN-2026-1907",
+    "timestamp": "2026-10-11T03:14:01.269Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1907-2",
+    "complaintId": "CP-CHN-2026-1907",
+    "timestamp": "2026-10-11T03:14:01.269Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1907-3",
+    "complaintId": "CP-CHN-2026-1907",
+    "timestamp": "2026-10-11T03:14:01.269Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2680-1",
+    "complaintId": "CP-CHN-2026-2680",
+    "timestamp": "2026-10-11T03:14:01.282Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2680-2",
+    "complaintId": "CP-CHN-2026-2680",
+    "timestamp": "2026-10-11T03:14:01.282Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2680-3",
+    "complaintId": "CP-CHN-2026-2680",
+    "timestamp": "2026-10-11T03:14:01.282Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4312-1",
+    "complaintId": "CP-CHN-2026-4312",
+    "timestamp": "2026-10-11T03:14:01.294Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4312-2",
+    "complaintId": "CP-CHN-2026-4312",
+    "timestamp": "2026-10-11T03:14:01.294Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4312-3",
+    "complaintId": "CP-CHN-2026-4312",
+    "timestamp": "2026-10-11T03:14:01.294Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7050-1",
+    "complaintId": "CP-CHN-2026-7050",
+    "timestamp": "2026-10-11T03:14:01.684Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7050-2",
+    "complaintId": "CP-CHN-2026-7050",
+    "timestamp": "2026-10-11T03:14:01.684Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7050-3",
+    "complaintId": "CP-CHN-2026-7050",
+    "timestamp": "2026-10-11T03:14:01.684Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1670-1",
+    "complaintId": "CP-CHN-2026-1670",
+    "timestamp": "2026-10-11T03:14:01.696Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1670-2",
+    "complaintId": "CP-CHN-2026-1670",
+    "timestamp": "2026-10-11T03:14:01.696Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1670-3",
+    "complaintId": "CP-CHN-2026-1670",
+    "timestamp": "2026-10-11T03:14:01.696Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1260-1",
+    "complaintId": "CP-CHN-2026-1260",
+    "timestamp": "2026-10-11T03:15:01.639Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1260-2",
+    "complaintId": "CP-CHN-2026-1260",
+    "timestamp": "2026-10-11T03:15:01.639Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1260-3",
+    "complaintId": "CP-CHN-2026-1260",
+    "timestamp": "2026-10-11T03:15:01.639Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9554-1",
+    "complaintId": "CP-CHN-2026-9554",
+    "timestamp": "2026-10-11T03:16:50.478Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9554-2",
+    "complaintId": "CP-CHN-2026-9554",
+    "timestamp": "2026-10-11T03:16:50.478Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9554-3",
+    "complaintId": "CP-CHN-2026-9554",
+    "timestamp": "2026-10-11T03:16:50.478Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7668-1",
+    "complaintId": "CP-CHN-2026-7668",
+    "timestamp": "2026-10-11T03:16:50.494Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7668-2",
+    "complaintId": "CP-CHN-2026-7668",
+    "timestamp": "2026-10-11T03:16:50.494Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7668-3",
+    "complaintId": "CP-CHN-2026-7668",
+    "timestamp": "2026-10-11T03:16:50.494Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2220-1",
+    "complaintId": "CP-CHN-2026-2220",
+    "timestamp": "2026-10-11T03:16:50.506Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2220-2",
+    "complaintId": "CP-CHN-2026-2220",
+    "timestamp": "2026-10-11T03:16:50.506Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2220-3",
+    "complaintId": "CP-CHN-2026-2220",
+    "timestamp": "2026-10-11T03:16:50.506Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5997-1",
+    "complaintId": "CP-CHN-2026-5997",
+    "timestamp": "2026-10-11T03:16:50.896Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5997-2",
+    "complaintId": "CP-CHN-2026-5997",
+    "timestamp": "2026-10-11T03:16:50.896Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5997-3",
+    "complaintId": "CP-CHN-2026-5997",
+    "timestamp": "2026-10-11T03:16:50.896Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2913-1",
+    "complaintId": "CP-CHN-2026-2913",
+    "timestamp": "2026-10-11T03:16:50.910Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2913-2",
+    "complaintId": "CP-CHN-2026-2913",
+    "timestamp": "2026-10-11T03:16:50.910Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2913-3",
+    "complaintId": "CP-CHN-2026-2913",
+    "timestamp": "2026-10-11T03:16:50.910Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4726-1",
+    "complaintId": "CP-CHN-2026-4726",
+    "timestamp": "2026-10-11T03:17:00.701Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4726-2",
+    "complaintId": "CP-CHN-2026-4726",
+    "timestamp": "2026-10-11T03:17:00.701Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4726-3",
+    "complaintId": "CP-CHN-2026-4726",
+    "timestamp": "2026-10-11T03:17:00.701Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7608-1",
+    "complaintId": "CP-CHN-2026-7608",
+    "timestamp": "2026-10-11T04:19:40.351Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7608-2",
+    "complaintId": "CP-CHN-2026-7608",
+    "timestamp": "2026-10-11T04:19:40.351Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7608-3",
+    "complaintId": "CP-CHN-2026-7608",
+    "timestamp": "2026-10-11T04:19:40.351Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7889-1",
+    "complaintId": "CP-CHN-2026-7889",
+    "timestamp": "2026-10-11T04:19:40.412Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7889-2",
+    "complaintId": "CP-CHN-2026-7889",
+    "timestamp": "2026-10-11T04:19:40.412Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7889-3",
+    "complaintId": "CP-CHN-2026-7889",
+    "timestamp": "2026-10-11T04:19:40.412Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4225-1",
+    "complaintId": "CP-CHN-2026-4225",
+    "timestamp": "2026-10-11T04:19:40.447Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4225-2",
+    "complaintId": "CP-CHN-2026-4225",
+    "timestamp": "2026-10-11T04:19:40.447Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4225-3",
+    "complaintId": "CP-CHN-2026-4225",
+    "timestamp": "2026-10-11T04:19:40.447Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9027-1",
+    "complaintId": "CP-CHN-2026-9027",
+    "timestamp": "2026-10-11T04:19:40.470Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9027-2",
+    "complaintId": "CP-CHN-2026-9027",
+    "timestamp": "2026-10-11T04:19:40.470Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9027-3",
+    "complaintId": "CP-CHN-2026-9027",
+    "timestamp": "2026-10-11T04:19:40.470Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5037-1",
+    "complaintId": "CP-CHN-2026-5037",
+    "timestamp": "2026-10-11T04:19:40.490Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5037-2",
+    "complaintId": "CP-CHN-2026-5037",
+    "timestamp": "2026-10-11T04:19:40.490Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5037-3",
+    "complaintId": "CP-CHN-2026-5037",
+    "timestamp": "2026-10-11T04:19:40.490Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9814-1",
+    "complaintId": "CP-CHN-2026-9814",
+    "timestamp": "2026-10-11T04:19:40.510Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9814-2",
+    "complaintId": "CP-CHN-2026-9814",
+    "timestamp": "2026-10-11T04:19:40.510Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9814-3",
+    "complaintId": "CP-CHN-2026-9814",
+    "timestamp": "2026-10-11T04:19:40.510Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5592-1",
+    "complaintId": "CP-CHN-2026-5592",
+    "timestamp": "2026-10-11T04:19:40.530Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5592-2",
+    "complaintId": "CP-CHN-2026-5592",
+    "timestamp": "2026-10-11T04:19:40.530Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5592-3",
+    "complaintId": "CP-CHN-2026-5592",
+    "timestamp": "2026-10-11T04:19:40.530Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9530-1",
+    "complaintId": "CP-CHN-2026-9530",
+    "timestamp": "2026-10-11T04:19:40.550Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9530-2",
+    "complaintId": "CP-CHN-2026-9530",
+    "timestamp": "2026-10-11T04:19:40.550Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9530-3",
+    "complaintId": "CP-CHN-2026-9530",
+    "timestamp": "2026-10-11T04:19:40.550Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2968-1",
+    "complaintId": "CP-CHN-2026-2968",
+    "timestamp": "2026-10-11T04:19:40.571Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2968-2",
+    "complaintId": "CP-CHN-2026-2968",
+    "timestamp": "2026-10-11T04:19:40.571Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2968-3",
+    "complaintId": "CP-CHN-2026-2968",
+    "timestamp": "2026-10-11T04:19:40.571Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9238-1",
+    "complaintId": "CP-CHN-2026-9238",
+    "timestamp": "2026-10-11T04:19:40.591Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9238-2",
+    "complaintId": "CP-CHN-2026-9238",
+    "timestamp": "2026-10-11T04:19:40.591Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9238-3",
+    "complaintId": "CP-CHN-2026-9238",
+    "timestamp": "2026-10-11T04:19:40.591Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9574-1",
+    "complaintId": "CP-CHN-2026-9574",
+    "timestamp": "2026-10-11T04:19:40.612Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9574-2",
+    "complaintId": "CP-CHN-2026-9574",
+    "timestamp": "2026-10-11T04:19:40.612Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9574-3",
+    "complaintId": "CP-CHN-2026-9574",
+    "timestamp": "2026-10-11T04:19:40.612Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2475-1",
+    "complaintId": "CP-CHN-2026-2475",
+    "timestamp": "2026-10-11T04:19:40.647Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2475-2",
+    "complaintId": "CP-CHN-2026-2475",
+    "timestamp": "2026-10-11T04:19:40.647Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2475-3",
+    "complaintId": "CP-CHN-2026-2475",
+    "timestamp": "2026-10-11T04:19:40.647Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4165-1",
+    "complaintId": "CP-CHN-2026-4165",
+    "timestamp": "2026-10-11T04:19:40.994Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4165-2",
+    "complaintId": "CP-CHN-2026-4165",
+    "timestamp": "2026-10-11T04:19:40.994Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Major Arterial Road Safety': Critical risk for arterial roads and high-speed corridors in Chennai."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4165-3",
+    "complaintId": "CP-CHN-2026-4165",
+    "timestamp": "2026-10-11T04:19:40.994Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4165-4",
+    "complaintId": "CP-CHN-2026-4165",
+    "timestamp": "2026-10-11T04:19:41.044Z",
+    "action": "Status Updated",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "previousValue": "Received",
+    "newValue": "In Progress",
+    "reason": "Road maintenance crew dispatched to Egmore location"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4474-1",
+    "complaintId": "CP-CHN-2026-4474",
+    "timestamp": "2026-10-11T04:24:51.991Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4474-2",
+    "complaintId": "CP-CHN-2026-4474",
+    "timestamp": "2026-10-11T04:24:51.991Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-4474-3",
+    "complaintId": "CP-CHN-2026-4474",
+    "timestamp": "2026-10-11T04:24:51.991Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "AUDIT-1792344309999-914",
+    "action": "DEMO_DATA_RESET: Restored Baseline Dataset",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "timestamp": "2026-10-18T17:25:09.998Z"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1041-6",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-20T04:53:00.429Z",
+    "action": "Status Updated",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "previousValue": "Awaiting Admin Verification",
+    "newValue": "Resolved",
+    "reason": "Administrative status update."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-1041-7",
+    "complaintId": "CP-CHN-2026-1041",
+    "timestamp": "2026-10-20T04:53:00.556Z",
+    "action": "Priority Overridden by Admin",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "previousValue": "Critical",
+    "newValue": "High",
+    "reason": "Automated Security Verification Priority Override"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2408-1",
+    "complaintId": "CP-CHN-2026-2408",
+    "timestamp": "2026-11-03T11:26:48.166Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2408-2",
+    "complaintId": "CP-CHN-2026-2408",
+    "timestamp": "2026-11-03T11:26:48.166Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Critical",
+    "reason": "Matched rule 'Severe Water Main Burst & Contamination': Public health danger from major water distribution damage or contaminated supply."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-2408-3",
+    "complaintId": "CP-CHN-2026-2408",
+    "timestamp": "2026-11-03T11:26:48.166Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5525-1",
+    "complaintId": "CP-CHN-2026-5525",
+    "timestamp": "2026-11-03T11:26:48.313Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5525-2",
+    "complaintId": "CP-CHN-2026-5525",
+    "timestamp": "2026-11-03T11:26:48.313Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-5525-3",
+    "complaintId": "CP-CHN-2026-5525",
+    "timestamp": "2026-11-03T11:26:48.313Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9544-1",
+    "complaintId": "CP-CHN-2026-9544",
+    "timestamp": "2026-11-03T11:26:48.403Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9544-2",
+    "complaintId": "CP-CHN-2026-9544",
+    "timestamp": "2026-11-03T11:26:48.403Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-9544-3",
+    "complaintId": "CP-CHN-2026-9544",
+    "timestamp": "2026-11-03T11:26:48.403Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7501-1",
+    "complaintId": "CP-CHN-2026-7501",
+    "timestamp": "2026-11-03T11:26:49.041Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7501-2",
+    "complaintId": "CP-CHN-2026-7501",
+    "timestamp": "2026-11-03T11:26:49.041Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7501-3",
+    "complaintId": "CP-CHN-2026-7501",
+    "timestamp": "2026-11-03T11:26:49.041Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Water Supply and Sewerage Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7964-1",
+    "complaintId": "CP-CHN-2026-7964",
+    "timestamp": "2026-11-03T11:26:49.113Z",
+    "action": "Complaint Registered",
+    "actor": "Citizen Interface",
+    "newValue": "Received"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7964-2",
+    "complaintId": "CP-CHN-2026-7964",
+    "timestamp": "2026-11-03T11:26:49.113Z",
+    "action": "Auto-Prioritized",
+    "actor": "Namma Ooru Rule Engine",
+    "newValue": "Medium",
+    "reason": "Standard residential priority baseline."
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7964-3",
+    "complaintId": "CP-CHN-2026-7964",
+    "timestamp": "2026-11-03T11:26:49.113Z",
+    "action": "Auto-Assigned Department",
+    "actor": "Namma Ooru Routing",
+    "newValue": "Roads and Infrastructure Department"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7964-4",
+    "complaintId": "CP-CHN-2026-7964",
+    "timestamp": "2026-11-03T13:33:21.753Z",
+    "action": "Status Updated",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "previousValue": "Received",
+    "newValue": "In Progress",
+    "reason": "Field crew mobilized and dispatched to location"
+  },
+  {
+    "id": "LOG-CP-CHN-2026-7964-5",
+    "complaintId": "CP-CHN-2026-7964",
+    "timestamp": "2026-11-03T13:33:25.236Z",
+    "action": "Status Updated",
+    "actor": "dhivyadharshinivijay@gmail.com",
+    "actorId": "test_admin_uid_01",
+    "previousValue": "In Progress",
+    "newValue": "Awaiting Admin Verification",
+    "reason": "Field repair completed; awaiting administrative verification"
+  }
+]

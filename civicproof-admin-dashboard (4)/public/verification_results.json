@@ -1,0 +1,470 @@
+{
+  "1344x896": {
+    "viewport": "1344x896",
+    "u": 1,
+    "scrollHeight": 896,
+    "innerHeight": 896,
+    "noScroll": true,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "right": 1344,
+      "bottom": 896,
+      "width": 1344,
+      "height": 896
+    },
+    "navbar": {
+      "left": 50,
+      "top": 30,
+      "right": 1298,
+      "bottom": 102,
+      "width": 1248,
+      "height": 72
+    },
+    "heroTitle": {
+      "left": 73,
+      "top": 120.5,
+      "right": 326.2,
+      "bottom": 171.5,
+      "width": 253.2,
+      "height": 51
+    },
+    "heroTagline": {
+      "left": 0,
+      "top": 0,
+      "right": 1344,
+      "bottom": 896,
+      "width": 1344,
+      "height": 896
+    },
+    "heroDatePill": {
+      "left": 1149,
+      "top": 137,
+      "right": 1296,
+      "bottom": 176,
+      "width": 147,
+      "height": 39
+    },
+    "kpiTotal": {
+      "left": 50,
+      "top": 345,
+      "right": 352,
+      "bottom": 446,
+      "width": 302,
+      "height": 101
+    },
+    "kpiResolved": {
+      "left": 362,
+      "top": 345,
+      "right": 660,
+      "bottom": 446,
+      "width": 298,
+      "height": 101
+    },
+    "kpiInProgress": {
+      "left": 670,
+      "top": 345,
+      "right": 978,
+      "bottom": 446,
+      "width": 308,
+      "height": 101
+    },
+    "kpiUnresolved": {
+      "left": 989,
+      "top": 345,
+      "right": 1294,
+      "bottom": 446,
+      "width": 305,
+      "height": 101
+    },
+    "cityOverview": {
+      "left": 50,
+      "top": 459,
+      "right": 783,
+      "bottom": 866,
+      "width": 733,
+      "height": 407
+    },
+    "trendsCard": {
+      "left": 793,
+      "top": 459,
+      "right": 1294,
+      "bottom": 686,
+      "width": 501,
+      "height": 227
+    },
+    "deptCard": {
+      "left": 793,
+      "top": 696,
+      "right": 1294,
+      "bottom": 866,
+      "width": 501,
+      "height": 170
+    },
+    "mapContainer": {
+      "left": 66,
+      "top": 518,
+      "right": 769,
+      "bottom": 853,
+      "width": 703,
+      "height": 335
+    },
+    "chartVisibility": {
+      "trendsYTicks": [],
+      "trendsXTicks": [],
+      "deptYTicks": [],
+      "deptXTicks": []
+    }
+  },
+  "1440x960": {
+    "viewport": "1440x960",
+    "u": 1.0714285714285714,
+    "scrollHeight": 960,
+    "innerHeight": 960,
+    "noScroll": true,
+    "stage": {
+      "left": 0,
+      "top": 0,
+      "right": 1440,
+      "bottom": 960,
+      "width": 1440,
+      "height": 960
+    },
+    "navbar": {
+      "left": 53.6,
+      "top": 32.1,
+      "right": 1390.7,
+      "bottom": 109.3,
+      "width": 1337.1,
+      "height": 77.1
+    },
+    "heroTitle": {
+      "left": 78.2,
+      "top": 129.1,
+      "right": 349.4,
+      "bottom": 183.7,
+      "width": 271.2,
+      "height": 54.6
+    },
+    "heroTagline": {
+      "left": 0,
+      "top": 0,
+      "right": 1440,
+      "bottom": 960,
+      "width": 1440,
+      "height": 960
+    },
+    "heroDatePill": {
+      "left": 1231.1,
+      "top": 146.8,
+      "right": 1388.6,
+      "bottom": 188.6,
+      "width": 157.5,
+      "height": 41.8
+    },
+    "kpiTotal": {
+      "left": 53.6,
+      "top": 369.6,
+      "right": 377.1,
+      "bottom": 477.8,
+      "width": 323.6,
+      "height": 108.2
+    },
+    "kpiResolved": {
+      "left": 387.8,
+      "top": 369.6,
+      "right": 707.1,
+      "bottom": 477.8,
+      "width": 319.3,
+      "height": 108.2
+    },
+    "kpiInProgress": {
+      "left": 717.8,
+      "top": 369.6,
+      "right": 1047.8,
+      "bottom": 477.8,
+      "width": 330,
+      "height": 108.2
+    },
+    "kpiUnresolved": {
+      "left": 1059.6,
+      "top": 369.6,
+      "right": 1386.4,
+      "bottom": 477.8,
+      "width": 326.8,
+      "height": 108.2
+    },
+    "cityOverview": {
+      "left": 53.6,
+      "top": 491.8,
+      "right": 838.9,
+      "bottom": 927.8,
+      "width": 785.3,
+      "height": 436.1
+    },
+    "trendsCard": {
+      "left": 849.6,
+      "top": 491.8,
+      "right": 1386.4,
+      "bottom": 735,
+      "width": 536.8,
+      "height": 243.2
+    },
+    "deptCard": {
+      "left": 849.6,
+      "top": 745.7,
+      "right": 1386.4,
+      "bottom": 927.8,
+      "width": 536.8,
+      "height": 182.1
+    },
+    "mapContainer": {
+      "left": 70.6,
+      "top": 554.9,
+      "right": 823.8,
+      "bottom": 913.8,
+      "width": 753.2,
+      "height": 358.9
+    },
+    "chartVisibility": {
+      "trendsYTicks": [],
+      "trendsXTicks": [],
+      "deptYTicks": [],
+      "deptXTicks": []
+    }
+  },
+  "1906x996": {
+    "viewport": "1906x996",
+    "u": 1.1116071428571428,
+    "scrollHeight": 996,
+    "innerHeight": 996,
+    "noScroll": true,
+    "stage": {
+      "left": 206,
+      "top": 0,
+      "right": 1700,
+      "bottom": 996,
+      "width": 1494,
+      "height": 996
+    },
+    "navbar": {
+      "left": 261.6,
+      "top": 33.3,
+      "right": 1648.9,
+      "bottom": 113.4,
+      "width": 1387.3,
+      "height": 80
+    },
+    "heroTitle": {
+      "left": 287.1,
+      "top": 133.9,
+      "right": 568.5,
+      "bottom": 190.6,
+      "width": 281.4,
+      "height": 56.7
+    },
+    "heroTagline": {
+      "left": 206,
+      "top": 0,
+      "right": 1700,
+      "bottom": 996,
+      "width": 1494,
+      "height": 996
+    },
+    "heroDatePill": {
+      "left": 1483.2,
+      "top": 152.3,
+      "right": 1646.6,
+      "bottom": 195.6,
+      "width": 163.4,
+      "height": 43.3
+    },
+    "kpiTotal": {
+      "left": 261.6,
+      "top": 383.5,
+      "right": 597.3,
+      "bottom": 495.8,
+      "width": 335.7,
+      "height": 112.3
+    },
+    "kpiResolved": {
+      "left": 608.4,
+      "top": 383.5,
+      "right": 939.6,
+      "bottom": 495.8,
+      "width": 331.3,
+      "height": 112.3
+    },
+    "kpiInProgress": {
+      "left": 950.8,
+      "top": 383.5,
+      "right": 1293.1,
+      "bottom": 495.8,
+      "width": 342.4,
+      "height": 112.3
+    },
+    "kpiUnresolved": {
+      "left": 1305.4,
+      "top": 383.5,
+      "right": 1644.4,
+      "bottom": 495.8,
+      "width": 339,
+      "height": 112.3
+    },
+    "cityOverview": {
+      "left": 261.6,
+      "top": 510.2,
+      "right": 1076.4,
+      "bottom": 962.6,
+      "width": 814.8,
+      "height": 452.4
+    },
+    "trendsCard": {
+      "left": 1087.5,
+      "top": 510.2,
+      "right": 1644.4,
+      "bottom": 762.5,
+      "width": 556.9,
+      "height": 252.3
+    },
+    "deptCard": {
+      "left": 1087.5,
+      "top": 773.7,
+      "right": 1644.4,
+      "bottom": 962.6,
+      "width": 556.9,
+      "height": 189
+    },
+    "mapContainer": {
+      "left": 279.3,
+      "top": 575.7,
+      "right": 1060.7,
+      "bottom": 948.1,
+      "width": 781.5,
+      "height": 372.4
+    },
+    "chartVisibility": {
+      "trendsYTicks": [],
+      "trendsXTicks": [],
+      "deptYTicks": [],
+      "deptXTicks": []
+    }
+  },
+  "1920x1080": {
+    "viewport": "1920x1080",
+    "u": 1.2053571428571428,
+    "scrollHeight": 1080,
+    "innerHeight": 1080,
+    "noScroll": true,
+    "stage": {
+      "left": 150,
+      "top": 0,
+      "right": 1770,
+      "bottom": 1080,
+      "width": 1620,
+      "height": 1080
+    },
+    "navbar": {
+      "left": 210.3,
+      "top": 36.2,
+      "right": 1714.5,
+      "bottom": 122.9,
+      "width": 1504.3,
+      "height": 86.8
+    },
+    "heroTitle": {
+      "left": 238,
+      "top": 145.2,
+      "right": 543.1,
+      "bottom": 206.7,
+      "width": 305.1,
+      "height": 61.5
+    },
+    "heroTagline": {
+      "left": 150,
+      "top": 0,
+      "right": 1770,
+      "bottom": 1080,
+      "width": 1620,
+      "height": 1080
+    },
+    "heroDatePill": {
+      "left": 1535,
+      "top": 165.1,
+      "right": 1712.1,
+      "bottom": 212.1,
+      "width": 177.2,
+      "height": 47
+    },
+    "kpiTotal": {
+      "left": 210.3,
+      "top": 415.8,
+      "right": 574.3,
+      "bottom": 537.6,
+      "width": 364,
+      "height": 121.7
+    },
+    "kpiResolved": {
+      "left": 586.3,
+      "top": 415.8,
+      "right": 945.5,
+      "bottom": 537.6,
+      "width": 359.2,
+      "height": 121.7
+    },
+    "kpiInProgress": {
+      "left": 957.6,
+      "top": 415.8,
+      "right": 1328.8,
+      "bottom": 537.6,
+      "width": 371.3,
+      "height": 121.7
+    },
+    "kpiUnresolved": {
+      "left": 1342.1,
+      "top": 415.8,
+      "right": 1709.7,
+      "bottom": 537.6,
+      "width": 367.6,
+      "height": 121.7
+    },
+    "cityOverview": {
+      "left": 210.3,
+      "top": 553.3,
+      "right": 1093.8,
+      "bottom": 1043.8,
+      "width": 883.5,
+      "height": 490.6
+    },
+    "trendsCard": {
+      "left": 1105.8,
+      "top": 553.3,
+      "right": 1709.7,
+      "bottom": 826.9,
+      "width": 603.9,
+      "height": 273.6
+    },
+    "deptCard": {
+      "left": 1105.8,
+      "top": 838.9,
+      "right": 1709.7,
+      "bottom": 1043.8,
+      "width": 603.9,
+      "height": 204.9
+    },
+    "mapContainer": {
+      "left": 229.3,
+      "top": 624.2,
+      "right": 1076.7,
+      "bottom": 1027.9,
+      "width": 847.4,
+      "height": 403.8
+    },
+    "chartVisibility": {
+      "trendsYTicks": [],
+      "trendsXTicks": [],
+      "deptYTicks": [],
+      "deptXTicks": []
+    }
+  }
+}

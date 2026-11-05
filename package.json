@@ -1,0 +1,10 @@
+{
+  "name": "namma-ooru-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Namma Ooru root workspace launcher",
+  "scripts": {
+    "dev": "npm run dev:admin",
+    "dev:admin": "npm --prefix \"civicproof-admin-dashboard (4)\" run dev"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Namma Ooru Admin Dashboard",
+  "description": "Administrative domain dashboard for Chennai civic complaint management, automated department routing, prioritization, and resolution verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

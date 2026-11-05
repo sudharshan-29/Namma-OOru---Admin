@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "CP-CHN-2026-1001",
+    "category": "Road Damage",
+    "description": "Deep 2-foot pothole on central lane outside metro",
+    "location": {
+      "address": "Anna Salai, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 114",
+      "coordinates": {
+        "lat": 13.0604,
+        "lng": 80.2496
+      },
+      "geoJsonCoordinates": [
+        80.2496,
+        13.0604
+      ],
+      "landmark": "Near Anna Salai Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Driving_through_potholes.jpg?width=800",
+    "submissionTimestamp": "2026-10-17T09:30:00.000Z",
+    "createdAt": "2026-10-17T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Road Damage reported on Anna Salai.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1001",
+      "name": "Citizen 1001",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-17T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Anna Salai. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1001-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1002",
+    "category": "Improper Waste Disposal",
+    "description": "1100L green compactor bin overflowing with waste",
+    "location": {
+      "address": "Velachery, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 178",
+      "coordinates": {
+        "lat": 12.9759,
+        "lng": 80.2212
+      },
+      "geoJsonCoordinates": [
+        80.2212,
+        12.9759
+      ],
+      "landmark": "Near Velachery Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_corporation_dust_bin.jpg?width=800",
+    "submissionTimestamp": "2026-10-16T14:30:00.000Z",
+    "createdAt": "2026-10-16T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Waste Disposal reported on Velachery.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1002",
+      "name": "Citizen 1002",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-16T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Velachery. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1002-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1003",
+    "category": "Water Leakage",
+    "description": "Water leakage from underground pipeline",
+    "location": {
+      "address": "Adyar, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 173",
+      "coordinates": {
+        "lat": 13.0012,
+        "lng": 80.2565
+      },
+      "geoJsonCoordinates": [
+        80.2565,
+        13.0012
+      ],
+      "landmark": "Near Adyar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rain_water_at_Chennai,_India.jpg?width=800",
+    "submissionTimestamp": "2026-10-16T14:30:00.000Z",
+    "createdAt": "2026-10-16T14:30:00.000Z",
+    "priority": "Medium",
+    "priorityReason": "Water Leakage reported on Adyar.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1003",
+      "name": "Citizen 1003",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-16T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Adyar. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1003-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1004",
+    "category": "Road Damage",
+    "description": "Damaged median kerb blocks and missing manhole slab",
+    "location": {
+      "address": "Besant Nagar, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 175",
+      "coordinates": {
+        "lat": 12.9995,
+        "lng": 80.2707
+      },
+      "geoJsonCoordinates": [
+        80.2707,
+        12.9995
+      ],
+      "landmark": "Near Besant Nagar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Besant_Nagar_Beach_Road.JPG?width=800",
+    "submissionTimestamp": "2026-10-15T14:30:00.000Z",
+    "createdAt": "2026-10-15T14:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Road Damage reported on Besant Nagar.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1004",
+      "name": "Citizen 1004",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-15T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Besant Nagar. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.775Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1004-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1005",
+    "category": "Road Damage",
+    "description": "Multiple cluster potholes on service lane",
+    "location": {
+      "address": "Perungudi, Chennai",
+      "zone": "Zone 14 (Perungudi)",
+      "ward": "Ward 184",
+      "coordinates": {
+        "lat": 12.9654,
+        "lng": 80.2461
+      },
+      "geoJsonCoordinates": [
+        80.2461,
+        12.9654
+      ],
+      "landmark": "Near Perungudi Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Potholes_on_road.jpg?width=800",
+    "submissionTimestamp": "2026-10-15T09:30:00.000Z",
+    "createdAt": "2026-10-15T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Road Damage reported on Perungudi.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1005",
+      "name": "Citizen 1005",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-15T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Perungudi. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1005-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1006",
+    "category": "Water Leakage",
+    "description": "Underground main pipeline valve breach",
+    "location": {
+      "address": "T. Nagar, Chennai",
+      "zone": "Zone 10 (Kodambakkam)",
+      "ward": "Ward 136",
+      "coordinates": {
+        "lat": 13.0418,
+        "lng": 80.2341
+      },
+      "geoJsonCoordinates": [
+        80.2341,
+        13.0418
+      ],
+      "landmark": "Near T. Nagar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Burkit_road_t_nagar_Chennai.jpg?width=800",
+    "submissionTimestamp": "2026-10-15T09:30:00.000Z",
+    "createdAt": "2026-10-15T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Water Leakage reported on T. Nagar.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1006",
+      "name": "Citizen 1006",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-15T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at T. Nagar. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1006-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1007",
+    "category": "Improper Waste Disposal",
+    "description": "Commercial packaging debris dumped across storm drain",
+    "location": {
+      "address": "Mylapore, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 121",
+      "coordinates": {
+        "lat": 13.0368,
+        "lng": 80.2676
+      },
+      "geoJsonCoordinates": [
+        80.2676,
+        13.0368
+      ],
+      "landmark": "Near Mylapore Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sithalapakkam_Garbage_Dump_1.jpg?width=800",
+    "submissionTimestamp": "2026-10-14T14:30:00.000Z",
+    "createdAt": "2026-10-14T14:30:00.000Z",
+    "priority": "Medium",
+    "priorityReason": "Waste Disposal reported on Mylapore.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1007",
+      "name": "Citizen 1007",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-14T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Mylapore. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1007-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1008",
+    "category": "Road Damage",
+    "description": "Sunken road slab and storm water grating displacement",
+    "location": {
+      "address": "Marina Beach, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 118",
+      "coordinates": {
+        "lat": 13.05,
+        "lng": 80.2824
+      },
+      "geoJsonCoordinates": [
+        80.2824,
+        13.05
+      ],
+      "landmark": "Near Marina Beach Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Beach_road,Chennai.jpg?width=800",
+    "submissionTimestamp": "2026-10-14T09:30:00.000Z",
+    "createdAt": "2026-10-14T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Road Damage reported on Marina Beach.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1008",
+      "name": "Citizen 1008",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-14T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Marina Beach. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1008-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1009",
+    "category": "Improper Waste Disposal",
+    "description": "Demolition concrete debris and cement plaster bags on walkway",
+    "location": {
+      "address": "Royapettah, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 116",
+      "coordinates": {
+        "lat": 13.0583,
+        "lng": 80.2642
+      },
+      "geoJsonCoordinates": [
+        80.2642,
+        13.0583
+      ],
+      "landmark": "Near Royapettah Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai.in_Triplicane_High_Road_-_panoramio.jpg?width=800",
+    "submissionTimestamp": "2026-10-13T14:30:00.000Z",
+    "createdAt": "2026-10-13T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Waste Disposal reported on Royapettah.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.775Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1009",
+      "name": "Citizen 1009",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.775Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-13T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Royapettah. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1009-1",
+        "timestamp": "2026-11-03T23:52:21.775Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1010",
+    "category": "Water Leakage",
+    "description": "Main distribution collar crack creating road waterlogging",
+    "location": {
+      "address": "Kilpauk, Chennai",
+      "zone": "Zone 8 (Anna Nagar)",
+      "ward": "Ward 102",
+      "coordinates": {
+        "lat": 13.0784,
+        "lng": 80.2415
+      },
+      "geoJsonCoordinates": [
+        80.2415,
+        13.0784
+      ],
+      "landmark": "Near Kilpauk Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_flood_water_logging_near_ofice_nandanam6.jpg?width=800",
+    "submissionTimestamp": "2026-10-13T09:30:00.000Z",
+    "createdAt": "2026-10-13T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Water Leakage reported on Kilpauk.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1010",
+      "name": "Citizen 1010",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-13T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Kilpauk. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1010-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1011",
+    "category": "Road Damage",
+    "description": "Flyover descent asphalt surface peeling",
+    "location": {
+      "address": "Guindy, Chennai",
+      "zone": "Zone 10 (Kodambakkam)",
+      "ward": "Ward 139",
+      "coordinates": {
+        "lat": 13.0067,
+        "lng": 80.2025
+      },
+      "geoJsonCoordinates": [
+        80.2025,
+        13.0067
+      ],
+      "landmark": "Near Guindy Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_Kathipara_bridge.jpg?width=800",
+    "submissionTimestamp": "2026-10-12T14:30:00.000Z",
+    "createdAt": "2026-10-12T14:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Road Damage reported on Guindy.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1011",
+      "name": "Citizen 1011",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-12T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Guindy. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.776Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1011-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1012",
+    "category": "Road Damage",
+    "description": "Street light not working near junction",
+    "location": {
+      "address": "Besant Nagar, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 175",
+      "coordinates": {
+        "lat": 12.9995,
+        "lng": 80.2707
+      },
+      "geoJsonCoordinates": [
+        80.2707,
+        12.9995
+      ],
+      "landmark": "Near Besant Nagar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Besant_Nagar_Skyline.jpg?width=800",
+    "submissionTimestamp": "2026-10-12T14:30:00.000Z",
+    "createdAt": "2026-10-12T14:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Street Light Issue reported on Besant Nagar.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1012",
+      "name": "Citizen 1012",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-12T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Besant Nagar. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.776Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1012-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1013",
+    "category": "Water Leakage",
+    "description": "Damaged municipal air valve discharging water",
+    "location": {
+      "address": "T. Nagar, Chennai",
+      "zone": "Zone 10 (Kodambakkam)",
+      "ward": "Ward 136",
+      "coordinates": {
+        "lat": 13.0418,
+        "lng": 80.2341
+      },
+      "geoJsonCoordinates": [
+        80.2341,
+        13.0418
+      ],
+      "landmark": "Near T. Nagar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Venkatanarayana_road_t_nagar_Chennai.jpg?width=800",
+    "submissionTimestamp": "2026-10-12T09:30:00.000Z",
+    "createdAt": "2026-10-12T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Water Leakage reported on T. Nagar.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1013",
+      "name": "Citizen 1013",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-12T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at T. Nagar. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1013-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1014",
+    "category": "Road Damage",
+    "description": "Deep utility trench across residential street unpaved",
+    "location": {
+      "address": "Anna Salai, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 114",
+      "coordinates": {
+        "lat": 13.0604,
+        "lng": 80.2496
+      },
+      "geoJsonCoordinates": [
+        80.2496,
+        13.0604
+      ],
+      "landmark": "Near Anna Salai Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Road,_Chennai.JPG?width=800",
+    "submissionTimestamp": "2026-10-11T14:30:00.000Z",
+    "createdAt": "2026-10-11T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Road Damage reported on Anna Salai.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1014",
+      "name": "Citizen 1014",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-11T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Anna Salai. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1014-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1015",
+    "category": "Improper Waste Disposal",
+    "description": "Food packaging and coconut shells dumped on plot",
+    "location": {
+      "address": "Adyar, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 173",
+      "coordinates": {
+        "lat": 13.0012,
+        "lng": 80.2565
+      },
+      "geoJsonCoordinates": [
+        80.2565,
+        13.0012
+      ],
+      "landmark": "Near Adyar Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/East_Coast_Road_Chennai.jpg?width=800",
+    "submissionTimestamp": "2026-10-11T14:30:00.000Z",
+    "createdAt": "2026-10-11T14:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Waste Disposal reported on Adyar.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1015",
+      "name": "Citizen 1015",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-11T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Adyar. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.776Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1015-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1016",
+    "category": "Water Leakage",
+    "description": "Drinking water pipeline breached during drain work",
+    "location": {
+      "address": "Mylapore, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 121",
+      "coordinates": {
+        "lat": 13.0368,
+        "lng": 80.2676
+      },
+      "geoJsonCoordinates": [
+        80.2676,
+        13.0368
+      ],
+      "landmark": "Near Mylapore Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Inundation_of_Chennai_in_2017-7.jpg?width=800",
+    "submissionTimestamp": "2026-10-10T09:30:00.000Z",
+    "createdAt": "2026-10-10T09:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Water Leakage reported on Mylapore.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1016",
+      "name": "Citizen 1016",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-10T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Mylapore. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1016-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1017",
+    "category": "Road Damage",
+    "description": "Sunken manhole frame 4 inches below road grade",
+    "location": {
+      "address": "Velachery, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 178",
+      "coordinates": {
+        "lat": 12.9759,
+        "lng": 80.2212
+      },
+      "geoJsonCoordinates": [
+        80.2212,
+        12.9759
+      ],
+      "landmark": "Near Velachery Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/100ft_road_velachery.jpg?width=800",
+    "submissionTimestamp": "2026-10-10T09:30:00.000Z",
+    "createdAt": "2026-10-10T09:30:00.000Z",
+    "priority": "Medium",
+    "priorityReason": "Road Damage reported on Velachery.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1017",
+      "name": "Citizen 1017",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-10T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Velachery. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1017-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1018",
+    "category": "Improper Waste Disposal",
+    "description": "Commercial wet waste bins leaking onto avenue pavement",
+    "location": {
+      "address": "Alwarpet, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 122",
+      "coordinates": {
+        "lat": 13.034,
+        "lng": 80.25
+      },
+      "geoJsonCoordinates": [
+        80.25,
+        13.034
+      ],
+      "landmark": "Near Alwarpet Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sithalapakkam_Garbage_Dump_3.jpg?width=800",
+    "submissionTimestamp": "2026-10-09T14:30:00.000Z",
+    "createdAt": "2026-10-09T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Waste Disposal reported on Alwarpet.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1018",
+      "name": "Citizen 1018",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-09T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Alwarpet. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1018-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1019",
+    "category": "Road Damage",
+    "description": "Extensive bitumen peeling on turn lane",
+    "location": {
+      "address": "Perungudi, Chennai",
+      "zone": "Zone 14 (Perungudi)",
+      "ward": "Ward 184",
+      "coordinates": {
+        "lat": 12.9654,
+        "lng": 80.2461
+      },
+      "geoJsonCoordinates": [
+        80.2461,
+        12.9654
+      ],
+      "landmark": "Near Perungudi Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Perungudi.jpg?width=800",
+    "submissionTimestamp": "2026-10-09T14:30:00.000Z",
+    "createdAt": "2026-10-09T14:30:00.000Z",
+    "priority": "Medium",
+    "priorityReason": "Road Damage reported on Perungudi.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1019",
+      "name": "Citizen 1019",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-09T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Perungudi. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1019-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1020",
+    "category": "Water Leakage",
+    "description": "Distribution feeder pipe joint fractured near lake bund",
+    "location": {
+      "address": "Velachery, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 178",
+      "coordinates": {
+        "lat": 12.9759,
+        "lng": 80.2212
+      },
+      "geoJsonCoordinates": [
+        80.2212,
+        12.9759
+      ],
+      "landmark": "Near Velachery Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/India_-_Chennai_-_Monsoon_-_04_(3058215637).jpg?width=800",
+    "submissionTimestamp": "2026-10-08T14:30:00.000Z",
+    "createdAt": "2026-10-08T14:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Water Leakage reported on Velachery.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1020",
+      "name": "Citizen 1020",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-08T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Velachery. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.776Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1020-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1021",
+    "category": "Road Damage",
+    "description": "Cluster of 4 street lamps unlit near pedestrian underpass",
+    "location": {
+      "address": "Guindy, Chennai",
+      "zone": "Zone 10 (Kodambakkam)",
+      "ward": "Ward 139",
+      "coordinates": {
+        "lat": 13.0067,
+        "lng": 80.2025
+      },
+      "geoJsonCoordinates": [
+        80.2025,
+        13.0067
+      ],
+      "landmark": "Near Guindy Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_traffic_at_night.jpg?width=800",
+    "submissionTimestamp": "2026-10-08T14:30:00.000Z",
+    "createdAt": "2026-10-08T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Street Light Issue reported on Guindy.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1021",
+      "name": "Citizen 1021",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-08T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Guindy. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1021-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1022",
+    "category": "Improper Waste Disposal",
+    "description": "Uncollected market waste accumulating near school wall",
+    "location": {
+      "address": "Mylapore, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 121",
+      "coordinates": {
+        "lat": 13.0368,
+        "lng": 80.2676
+      },
+      "geoJsonCoordinates": [
+        80.2676,
+        13.0368
+      ],
+      "landmark": "Near Mylapore Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Street_Garbage.jpg?width=800",
+    "submissionTimestamp": "2026-10-07T09:30:00.000Z",
+    "createdAt": "2026-10-07T09:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Waste Disposal reported on Mylapore.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Resolved",
+    "status": "Resolved",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1022",
+      "name": "Citizen 1022",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-07T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Mylapore. Completed rectification and uploaded photographic proof.",
+      "verifiedAt": "2026-11-03T23:52:21.776Z",
+      "verifiedBy": "Er. K. Sivakumar (Admin)",
+      "decision": "Approved",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1022-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1023",
+    "category": "Water Leakage",
+    "description": "Drinking water gushing out of valve pit near bus shelter",
+    "location": {
+      "address": "Anna Salai, Chennai",
+      "zone": "Zone 9 (Teynampet)",
+      "ward": "Ward 114",
+      "coordinates": {
+        "lat": 13.0604,
+        "lng": 80.2496
+      },
+      "geoJsonCoordinates": [
+        80.2496,
+        13.0604
+      ],
+      "landmark": "Near Anna Salai Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Water_gushing_out_of_tank_when_water_released_during_2011.jpg?width=800",
+    "submissionTimestamp": "2026-10-07T09:30:00.000Z",
+    "createdAt": "2026-10-07T09:30:00.000Z",
+    "priority": "Medium",
+    "priorityReason": "Water Leakage reported on Anna Salai.",
+    "assignedDepartment": "Water Supply and Sewerage Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "In Progress",
+    "status": "In Progress",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1023",
+      "name": "Citizen 1023",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-07T16:00:00.000Z",
+      "submittedByDepartment": "Water Supply and Sewerage Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Anna Salai. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1023-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1024",
+    "category": "Road Damage",
+    "description": "Caved-in asphalt surface around stormwater culvert entry",
+    "location": {
+      "address": "Velachery, Chennai",
+      "zone": "Zone 13 (Adyar)",
+      "ward": "Ward 178",
+      "coordinates": {
+        "lat": 12.9759,
+        "lng": 80.2212
+      },
+      "geoJsonCoordinates": [
+        80.2212,
+        12.9759
+      ],
+      "landmark": "Near Velachery Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chennai_damage_1.jpg?width=800",
+    "submissionTimestamp": "2026-10-06T14:30:00.000Z",
+    "createdAt": "2026-10-06T14:30:00.000Z",
+    "priority": "High",
+    "priorityReason": "Road Damage reported on Velachery.",
+    "assignedDepartment": "Roads and Infrastructure Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1024",
+      "name": "Citizen 1024",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-06T16:00:00.000Z",
+      "submittedByDepartment": "Roads and Infrastructure Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Velachery. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1024-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  },
+  {
+    "id": "CP-CHN-2026-1025",
+    "category": "Improper Waste Disposal",
+    "description": "Discarded commercial crates and plastic wraps on green verge",
+    "location": {
+      "address": "Guindy, Chennai",
+      "zone": "Zone 10 (Kodambakkam)",
+      "ward": "Ward 139",
+      "coordinates": {
+        "lat": 13.0067,
+        "lng": 80.2025
+      },
+      "geoJsonCoordinates": [
+        80.2025,
+        13.0067
+      ],
+      "landmark": "Near Guindy Junction"
+    },
+    "originalPhotoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Chennai_Street_Metro_work_in_progress_guindy_105630.jpg?width=800",
+    "submissionTimestamp": "2026-10-06T09:30:00.000Z",
+    "createdAt": "2026-10-06T09:30:00.000Z",
+    "priority": "Low",
+    "priorityReason": "Waste Disposal reported on Guindy.",
+    "assignedDepartment": "Solid Waste Management Department",
+    "assignmentTimestamp": "2026-11-03T23:52:21.776Z",
+    "currentStatus": "Received",
+    "status": "Received",
+    "reporterType": "Registered Citizen",
+    "reporterInfo": {
+      "citizenId": "CIT-CHN-1025",
+      "name": "Citizen 1025",
+      "isVerifiedUser": true
+    },
+    "slaDeadline": "2026-11-05T23:52:21.776Z",
+    "isOverdue": false,
+    "isDemo": true,
+    "verification": {
+      "submittedAt": "2026-10-06T16:00:00.000Z",
+      "submittedByDepartment": "Solid Waste Management Department",
+      "afterRepairPhotoUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&auto=format&fit=crop&q=80",
+      "repairNotes": "Field team resolved issue at Guindy. Completed rectification and uploaded photographic proof.",
+      "resubmissionCount": 0
+    },
+    "history": [
+      {
+        "id": "LOG-1025-1",
+        "timestamp": "2026-11-03T23:52:21.776Z",
+        "action": "Complaint Registered",
+        "actor": "Citizen Portal",
+        "newValue": "Received"
+      }
+    ]
+  }
+]

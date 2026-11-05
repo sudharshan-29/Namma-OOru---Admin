@@ -1,0 +1,437 @@
+{
+  "entities": {
+    "Complaint": {
+      "title": "Complaint",
+      "description": "Civic complaint record reported by citizens across Chennai",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the complaint (e.g. CP-CHN-2026-1041)",
+          "maxLength": 64
+        },
+        "category": {
+          "type": "string",
+          "description": "Civic category of the complaint",
+          "enum": ["Road Damage", "Improper Waste Disposal", "Water Leakage"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Citizen description of the civic problem",
+          "maxLength": 2000
+        },
+        "location": {
+          "type": "object",
+          "description": "Geospatial and address location in Chennai"
+        },
+        "originalPhotoPath": {
+          "type": "string",
+          "description": "Cloud Storage path or reference for the original complaint photo",
+          "maxLength": 1024
+        },
+        "originalPhotoUrl": {
+          "type": "string",
+          "description": "Resolved preview or media URL",
+          "maxLength": 2048
+        },
+        "priority": {
+          "type": "string",
+          "description": "Triage priority level",
+          "enum": ["Critical", "High", "Medium", "Low"]
+        },
+        "priorityReason": {
+          "type": "string",
+          "description": "Explainable reason for priority assignment",
+          "maxLength": 1000
+        },
+        "priorityScore": {
+          "type": "number",
+          "description": "Derived numerical risk score (0-100)"
+        },
+        "assignedDepartmentId": {
+          "type": "string",
+          "description": "Stable identifier for the assigned department",
+          "maxLength": 128
+        },
+        "assignedDepartment": {
+          "type": "string",
+          "description": "Display name of the assigned department",
+          "maxLength": 256
+        },
+        "status": {
+          "type": "string",
+          "description": "Lifecycle workflow status",
+          "enum": [
+            "Received",
+            "Prioritized",
+            "Assigned",
+            "In Progress",
+            "Evidence Submitted",
+            "Awaiting Admin Verification",
+            "Resolved"
+          ]
+        },
+        "reporterType": {
+          "type": "string",
+          "description": "Reporter classification",
+          "enum": ["Registered Citizen", "Anonymous Reporter"]
+        },
+        "reporterId": {
+          "type": "string",
+          "description": "Private UID of registered reporter (restricted from public exposure)",
+          "maxLength": 128
+        },
+        "reporterInfo": {
+          "type": "object",
+          "description": "Masked citizen contact information"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Timestamp when complaint was registered"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Timestamp when complaint was last updated"
+        },
+        "submissionTimestamp": {
+          "type": "string",
+          "description": "ISO timestamp for backward compatibility"
+        },
+        "assignmentTimestamp": {
+          "type": "string",
+          "description": "ISO timestamp when department was assigned"
+        },
+        "slaDeadline": {
+          "type": "string",
+          "description": "Target SLA resolution timestamp"
+        },
+        "isOverdue": {
+          "type": "boolean",
+          "description": "Flag indicating if SLA deadline has elapsed"
+        },
+        "isDemo": {
+          "type": "boolean",
+          "description": "Flag distinguishing demo seed records from live citizen complaints"
+        },
+        "resolutionNotes": {
+          "type": "string",
+          "description": "Authorized administrative notes on final resolution",
+          "maxLength": 2000
+        }
+      },
+      "required": ["id", "category", "description", "priority", "status", "reporterType"]
+    },
+    "ResolutionEvidence": {
+      "title": "ResolutionEvidence",
+      "description": "Post-repair photo evidence submitted by department work crews",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Evidence document identifier",
+          "maxLength": 64
+        },
+        "complaintId": {
+          "type": "string",
+          "description": "Associated complaint ID",
+          "maxLength": 64
+        },
+        "submittingDepartmentId": {
+          "type": "string",
+          "description": "Identifier of submitting department",
+          "maxLength": 128
+        },
+        "submittingDepartment": {
+          "type": "string",
+          "description": "Name of submitting department",
+          "maxLength": 256
+        },
+        "afterRepairPhotoPath": {
+          "type": "string",
+          "description": "Cloud Storage path for post-repair photo",
+          "maxLength": 1024
+        },
+        "afterRepairPhotoUrl": {
+          "type": "string",
+          "description": "Preview URL for post-repair photo",
+          "maxLength": 2048
+        },
+        "repairNotes": {
+          "type": "string",
+          "description": "Department field supervisor repair summary notes",
+          "maxLength": 2000
+        },
+        "submittedAt": {
+          "type": "string",
+          "description": "Timestamp when evidence was submitted"
+        },
+        "verificationStatus": {
+          "type": "string",
+          "description": "Verification status",
+          "enum": ["pending", "approved", "rejected"]
+        },
+        "decision": {
+          "type": "string",
+          "description": "Admin decision label",
+          "enum": ["Approved", "Rejected"]
+        },
+        "adminReviewerId": {
+          "type": "string",
+          "description": "UID of reviewing administrator",
+          "maxLength": 128
+        },
+        "adminReviewerEmail": {
+          "type": "string",
+          "description": "Email of reviewing administrator",
+          "maxLength": 256
+        },
+        "reviewTimestamp": {
+          "type": "string",
+          "description": "Timestamp when admin verified or rejected evidence"
+        },
+        "rejectionReason": {
+          "type": "string",
+          "description": "Mandatory reason if evidence was rejected",
+          "maxLength": 1000
+        },
+        "resubmissionCount": {
+          "type": "number",
+          "description": "Number of times evidence has been resubmitted"
+        }
+      },
+      "required": ["complaintId", "submittingDepartment", "afterRepairPhotoUrl", "submittedAt"]
+    },
+    "Notification": {
+      "title": "Notification",
+      "description": "Citizen delivery notification record",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Notification identifier",
+          "maxLength": 64
+        },
+        "complaintId": {
+          "type": "string",
+          "description": "Associated complaint ID",
+          "maxLength": 64
+        },
+        "category": {
+          "type": "string",
+          "description": "Complaint category",
+          "maxLength": 128
+        },
+        "recipientEligibility": {
+          "type": "string",
+          "description": "Recipient eligibility indicator",
+          "enum": ["Eligible (Registered)", "Ineligible (Anonymous - Restricted)"]
+        },
+        "recipientId": {
+          "type": "string",
+          "description": "Registered citizen user UID",
+          "maxLength": 128
+        },
+        "recipientName": {
+          "type": "string",
+          "description": "Recipient citizen display name",
+          "maxLength": 256
+        },
+        "recipientContact": {
+          "type": "string",
+          "description": "Masked recipient contact info",
+          "maxLength": 256
+        },
+        "notificationType": {
+          "type": "string",
+          "description": "Type of notification dispatched",
+          "enum": ["Evidence Approved & Resolved", "Status Update", "Complaint Registered"]
+        },
+        "creationTimestamp": {
+          "type": "string",
+          "description": "Timestamp when notification was created"
+        },
+        "deliveryStatus": {
+          "type": "string",
+          "description": "Delivery status",
+          "enum": ["Delivered", "Pending", "Blocked (Anonymous Safety Policy)", "Failed"]
+        },
+        "failureReason": {
+          "type": "string",
+          "description": "Reason for delivery block or failure",
+          "maxLength": 1000
+        },
+        "hasSignedPhotoUrl": {
+          "type": "boolean",
+          "description": "Whether a signed resolution photo link is attached"
+        },
+        "signedUrlExpiry": {
+          "type": "string",
+          "description": "Expiration timestamp of signed photo link"
+        },
+        "deliveredChannel": {
+          "type": "string",
+          "description": "Notification delivery channel",
+          "enum": ["SMS", "Email", "In-App Portal", "None"]
+        }
+      },
+      "required": ["complaintId", "recipientEligibility", "notificationType", "creationTimestamp", "deliveryStatus"]
+    },
+    "AuditLog": {
+      "title": "AuditLog",
+      "description": "Immutable administrative audit log entry",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Audit log identifier",
+          "maxLength": 64
+        },
+        "complaintId": {
+          "type": "string",
+          "description": "Associated complaint ID",
+          "maxLength": 64
+        },
+        "action": {
+          "type": "string",
+          "description": "Action performed",
+          "maxLength": 128
+        },
+        "actor": {
+          "type": "string",
+          "description": "Actor display name",
+          "maxLength": 256
+        },
+        "actorId": {
+          "type": "string",
+          "description": "Actor UID if authenticated",
+          "maxLength": 128
+        },
+        "actorEmail": {
+          "type": "string",
+          "description": "Actor email if authenticated",
+          "maxLength": 256
+        },
+        "previousValue": {
+          "type": "string",
+          "description": "Previous field value",
+          "maxLength": 512
+        },
+        "newValue": {
+          "type": "string",
+          "description": "New field value",
+          "maxLength": 512
+        },
+        "reason": {
+          "type": "string",
+          "description": "Documented reason for change",
+          "maxLength": 1000
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "Timestamp of action"
+        }
+      },
+      "required": ["action", "actor", "timestamp"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "Authorized municipal administrator record",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID of administrator",
+          "maxLength": 128
+        },
+        "email": {
+          "type": "string",
+          "description": "Administrator official email",
+          "maxLength": 256
+        },
+        "name": {
+          "type": "string",
+          "description": "Administrator full name",
+          "maxLength": 256
+        },
+        "role": {
+          "type": "string",
+          "description": "Role classification",
+          "enum": ["admin", "superadmin"]
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Registration timestamp"
+        }
+      },
+      "required": ["email", "role"]
+    },
+    "SystemSetting": {
+      "title": "SystemSetting",
+      "description": "System configuration for Namma Ooru administration",
+      "type": "object",
+      "properties": {
+        "adminName": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "adminDesignation": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "slaHours": {
+          "type": "object"
+        },
+        "autoAssignmentEnabled": {
+          "type": "boolean"
+        },
+        "strictPhotoVerification": {
+          "type": "boolean"
+        },
+        "notifyOnlyRegisteredCitizens": {
+          "type": "boolean"
+        },
+        "priorityRules": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "/complaints/{complaintId}": {
+      "schema": {
+        "$ref": "#/entities/Complaint"
+      },
+      "description": "Civic complaints reported by citizens in Chennai"
+    },
+    "/resolutionEvidence/{evidenceId}": {
+      "schema": {
+        "$ref": "#/entities/ResolutionEvidence"
+      },
+      "description": "After-repair photo evidence submitted by departments"
+    },
+    "/notifications/{notificationId}": {
+      "schema": {
+        "$ref": "#/entities/Notification"
+      },
+      "description": "Citizen delivery audit records for resolution and status updates"
+    },
+    "/auditLogs/{logId}": {
+      "schema": {
+        "$ref": "#/entities/AuditLog"
+      },
+      "description": "Immutable audit trail of administrative and lifecycle changes"
+    },
+    "/admins/{adminId}": {
+      "schema": {
+        "$ref": "#/entities/Admin"
+      },
+      "description": "Authorized municipal administrator records"
+    },
+    "/settings/{settingId}": {
+      "schema": {
+        "$ref": "#/entities/SystemSetting"
+      },
+      "description": "Municipal operational settings and prioritization rules"
+    }
+  }
+}

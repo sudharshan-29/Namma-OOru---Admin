@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic / debug logs
+firestore-debug.log
+
+# Dependency directories
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env*.local
+civicproof-admin-dashboard (4)/.env
+civicproof-admin-dashboard (4)/.env*.local
+!.env.example
+!civicproof-admin-dashboard (4)/.env.example
+
+# OS / System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Roads and Infrastructure Department",
+    "code": "RID-GCC",
+    "category": "Road Damage",
+    "totalAssigned": 0,
+    "inProgress": 0,
+    "awaitingVerification": 0,
+    "resolved": 0,
+    "overdueCount": 0,
+    "avgResolutionHours": 18.5,
+    "slaTargetHours": 24,
+    "headOfficer": "Er. M. Rajendran, Chief Engineer (Roads)",
+    "contactNumber": "+91 44 2538 4101"
+  },
+  {
+    "name": "Solid Waste Management Department",
+    "code": "SWMD-GCC",
+    "category": "Improper Waste Disposal",
+    "totalAssigned": 0,
+    "inProgress": 0,
+    "awaitingVerification": 0,
+    "resolved": 0,
+    "overdueCount": 0,
+    "avgResolutionHours": 14.2,
+    "slaTargetHours": 24,
+    "headOfficer": "Dr. S. Kanimozhi, Joint Director (Sanitation)",
+    "contactNumber": "+91 44 2538 4202"
+  },
+  {
+    "name": "Water Supply and Sewerage Department",
+    "code": "CMWSSB-OPS",
+    "category": "Water Leakage",
+    "totalAssigned": 0,
+    "inProgress": 0,
+    "awaitingVerification": 0,
+    "resolved": 0,
+    "overdueCount": 0,
+    "avgResolutionHours": 21,
+    "slaTargetHours": 36,
+    "headOfficer": "Er. P. Venkatesh, Superintending Engineer (Distribution)",
+    "contactNumber": "+91 44 2845 1300"
+  }
+]

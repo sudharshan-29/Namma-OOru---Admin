@@ -1,0 +1,1002 @@
+{
+  "1344x896": {
+    "viewport": "1344x896",
+    "s": 1,
+    "scrollHeight": 896,
+    "innerHeight": 896,
+    "noScroll": true,
+    "expectedMargin": 50,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 50,
+      "top": 30,
+      "right": 1294,
+      "bottom": 102,
+      "width": 1244,
+      "height": 72
+    },
+    "heroRow": {
+      "left": 50,
+      "top": 102,
+      "right": 1294,
+      "bottom": 358,
+      "width": 1244,
+      "height": 255.9
+    },
+    "heroTitle": {
+      "left": 50,
+      "top": 168.7,
+      "right": 303.1,
+      "bottom": 219.7,
+      "width": 253.2,
+      "height": 51
+    },
+    "heroTagline": {
+      "left": 50,
+      "top": 222.2,
+      "right": 483.7,
+      "bottom": 236.2,
+      "width": 433.7,
+      "height": 14
+    },
+    "heroDatePill": {
+      "left": 1144,
+      "top": 174.7,
+      "right": 1294,
+      "bottom": 213.7,
+      "width": 150,
+      "height": 39
+    },
+    "kpiRow": {
+      "left": 50,
+      "top": 358,
+      "right": 1294,
+      "bottom": 459.2,
+      "width": 1244,
+      "height": 101.2
+    },
+    "kpiTotal": {
+      "left": 50,
+      "top": 358,
+      "right": 353.4,
+      "bottom": 459.2,
+      "width": 303.4,
+      "height": 101.2
+    },
+    "kpiResolved": {
+      "left": 363.5,
+      "top": 358,
+      "right": 667,
+      "bottom": 459.2,
+      "width": 303.5,
+      "height": 101.2
+    },
+    "kpiInProgress": {
+      "left": 677,
+      "top": 358,
+      "right": 980.5,
+      "bottom": 459.2,
+      "width": 303.5,
+      "height": 101.2
+    },
+    "kpiUnresolved": {
+      "left": 990.6,
+      "top": 358,
+      "right": 1294,
+      "bottom": 459.2,
+      "width": 303.5,
+      "height": 101.2
+    },
+    "lowerSection": {
+      "left": 50,
+      "top": 459.2,
+      "right": 1294,
+      "bottom": 866,
+      "width": 1244,
+      "height": 406.8
+    },
+    "cityOverview": {
+      "left": 50,
+      "top": 459.2,
+      "right": 782.3,
+      "bottom": 866,
+      "width": 732.3,
+      "height": 406.8
+    },
+    "trendsCard": {
+      "left": 792.4,
+      "top": 459.2,
+      "right": 1294,
+      "bottom": 657.7,
+      "width": 501.6,
+      "height": 198.5
+    },
+    "deptCard": {
+      "left": 792.4,
+      "top": 667.5,
+      "right": 1294,
+      "bottom": 866,
+      "width": 501.6,
+      "height": 198.5
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 65,
+      "top": 512.2,
+      "right": 767.3,
+      "bottom": 851,
+      "width": 702.3,
+      "height": 338.8
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "1440x900": {
+    "viewport": "1440x900",
+    "s": 1.0044642857142858,
+    "scrollHeight": 900,
+    "innerHeight": 900,
+    "noScroll": true,
+    "expectedMargin": 53.6,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 53.6,
+      "top": 30.1,
+      "right": 1386.4,
+      "bottom": 102.5,
+      "width": 1332.9,
+      "height": 72.4
+    },
+    "heroRow": {
+      "left": 53.6,
+      "top": 102.5,
+      "right": 1386.4,
+      "bottom": 359.6,
+      "width": 1332.9,
+      "height": 257.1
+    },
+    "heroTitle": {
+      "left": 53.6,
+      "top": 169.4,
+      "right": 307.8,
+      "bottom": 220.7,
+      "width": 254.2,
+      "height": 51.2
+    },
+    "heroTagline": {
+      "left": 53.6,
+      "top": 223.2,
+      "right": 489.1,
+      "bottom": 237.2,
+      "width": 435.6,
+      "height": 14.1
+    },
+    "heroDatePill": {
+      "left": 1235.8,
+      "top": 175.5,
+      "right": 1386.4,
+      "bottom": 214.6,
+      "width": 150.7,
+      "height": 39.2
+    },
+    "kpiRow": {
+      "left": 53.6,
+      "top": 359.6,
+      "right": 1386.4,
+      "bottom": 461.3,
+      "width": 1332.9,
+      "height": 101.7
+    },
+    "kpiTotal": {
+      "left": 53.6,
+      "top": 359.6,
+      "right": 378.7,
+      "bottom": 461.3,
+      "width": 325.1,
+      "height": 101.7
+    },
+    "kpiResolved": {
+      "left": 389.5,
+      "top": 359.6,
+      "right": 714.6,
+      "bottom": 461.3,
+      "width": 325.1,
+      "height": 101.7
+    },
+    "kpiInProgress": {
+      "left": 725.4,
+      "top": 359.6,
+      "right": 1050.5,
+      "bottom": 461.3,
+      "width": 325.1,
+      "height": 101.7
+    },
+    "kpiUnresolved": {
+      "left": 1061.3,
+      "top": 359.6,
+      "right": 1386.4,
+      "bottom": 461.3,
+      "width": 325.1,
+      "height": 101.7
+    },
+    "lowerSection": {
+      "left": 53.6,
+      "top": 461.3,
+      "right": 1386.4,
+      "bottom": 869.9,
+      "width": 1332.9,
+      "height": 408.6
+    },
+    "cityOverview": {
+      "left": 53.6,
+      "top": 461.3,
+      "right": 838.2,
+      "bottom": 869.9,
+      "width": 784.6,
+      "height": 408.6
+    },
+    "trendsCard": {
+      "left": 849,
+      "top": 461.3,
+      "right": 1386.4,
+      "bottom": 660.6,
+      "width": 537.4,
+      "height": 199.3
+    },
+    "deptCard": {
+      "left": 849,
+      "top": 670.5,
+      "right": 1386.4,
+      "bottom": 869.9,
+      "width": 537.4,
+      "height": 199.4
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 68.6,
+      "top": 514.5,
+      "right": 823.1,
+      "bottom": 854.8,
+      "width": 754.5,
+      "height": 340.3
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "1536x864": {
+    "viewport": "1536x864",
+    "s": 0.9642857142857143,
+    "scrollHeight": 864,
+    "innerHeight": 864,
+    "noScroll": true,
+    "expectedMargin": 57.1,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 57.1,
+      "top": 28.9,
+      "right": 1478.9,
+      "bottom": 98.4,
+      "width": 1421.8,
+      "height": 69.5
+    },
+    "heroRow": {
+      "left": 57.1,
+      "top": 98.4,
+      "right": 1478.9,
+      "bottom": 345.2,
+      "width": 1421.8,
+      "height": 246.8
+    },
+    "heroTitle": {
+      "left": 57.1,
+      "top": 162.6,
+      "right": 301.2,
+      "bottom": 211.8,
+      "width": 244.1,
+      "height": 49.2
+    },
+    "heroTagline": {
+      "left": 57.1,
+      "top": 214.2,
+      "right": 475.3,
+      "bottom": 227.7,
+      "width": 418.2,
+      "height": 13.5
+    },
+    "heroDatePill": {
+      "left": 1334.2,
+      "top": 168.4,
+      "right": 1478.9,
+      "bottom": 206,
+      "width": 144.7,
+      "height": 37.6
+    },
+    "kpiRow": {
+      "left": 57.1,
+      "top": 345.2,
+      "right": 1478.9,
+      "bottom": 442.8,
+      "width": 1421.8,
+      "height": 97.6
+    },
+    "kpiTotal": {
+      "left": 57.1,
+      "top": 345.2,
+      "right": 403.9,
+      "bottom": 442.8,
+      "width": 346.8,
+      "height": 97.6
+    },
+    "kpiResolved": {
+      "left": 415.4,
+      "top": 345.2,
+      "right": 762.2,
+      "bottom": 442.8,
+      "width": 346.8,
+      "height": 97.6
+    },
+    "kpiInProgress": {
+      "left": 773.8,
+      "top": 345.2,
+      "right": 1120.5,
+      "bottom": 442.8,
+      "width": 346.8,
+      "height": 97.6
+    },
+    "kpiUnresolved": {
+      "left": 1132.1,
+      "top": 345.2,
+      "right": 1478.9,
+      "bottom": 442.8,
+      "width": 346.8,
+      "height": 97.6
+    },
+    "lowerSection": {
+      "left": 57.1,
+      "top": 442.8,
+      "right": 1478.9,
+      "bottom": 835.1,
+      "width": 1421.8,
+      "height": 392.3
+    },
+    "cityOverview": {
+      "left": 57.1,
+      "top": 442.8,
+      "right": 894.1,
+      "bottom": 835.1,
+      "width": 837,
+      "height": 392.3
+    },
+    "trendsCard": {
+      "left": 905.6,
+      "top": 442.8,
+      "right": 1478.9,
+      "bottom": 634.2,
+      "width": 573.3,
+      "height": 191.4
+    },
+    "deptCard": {
+      "left": 905.6,
+      "top": 643.7,
+      "right": 1478.9,
+      "bottom": 835.1,
+      "width": 573.3,
+      "height": 191.4
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 71.6,
+      "top": 494,
+      "right": 879.6,
+      "bottom": 820.6,
+      "width": 808,
+      "height": 326.6
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "1920x1080": {
+    "viewport": "1920x1080",
+    "s": 1.2053571428571428,
+    "scrollHeight": 1080,
+    "innerHeight": 1080,
+    "noScroll": true,
+    "expectedMargin": 71.4,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 71.4,
+      "top": 36.2,
+      "right": 1848.6,
+      "bottom": 123,
+      "width": 1777.2,
+      "height": 86.8
+    },
+    "heroRow": {
+      "left": 71.4,
+      "top": 123,
+      "right": 1848.6,
+      "bottom": 431.5,
+      "width": 1777.2,
+      "height": 308.5
+    },
+    "heroTitle": {
+      "left": 71.4,
+      "top": 203.3,
+      "right": 376.5,
+      "bottom": 264.8,
+      "width": 305.1,
+      "height": 61.5
+    },
+    "heroTagline": {
+      "left": 71.4,
+      "top": 267.8,
+      "right": 594.1,
+      "bottom": 284.7,
+      "width": 522.6,
+      "height": 16.9
+    },
+    "heroDatePill": {
+      "left": 1668.2,
+      "top": 210.5,
+      "right": 1848.6,
+      "bottom": 257.5,
+      "width": 180.4,
+      "height": 47
+    },
+    "kpiRow": {
+      "left": 71.4,
+      "top": 431.5,
+      "right": 1848.6,
+      "bottom": 553.5,
+      "width": 1777.2,
+      "height": 122
+    },
+    "kpiTotal": {
+      "left": 71.4,
+      "top": 431.5,
+      "right": 504.9,
+      "bottom": 553.5,
+      "width": 433.5,
+      "height": 122
+    },
+    "kpiResolved": {
+      "left": 519.3,
+      "top": 431.5,
+      "right": 952.8,
+      "bottom": 553.5,
+      "width": 433.5,
+      "height": 122
+    },
+    "kpiInProgress": {
+      "left": 967.2,
+      "top": 431.5,
+      "right": 1400.7,
+      "bottom": 553.5,
+      "width": 433.5,
+      "height": 122
+    },
+    "kpiUnresolved": {
+      "left": 1415.1,
+      "top": 431.5,
+      "right": 1848.6,
+      "bottom": 553.5,
+      "width": 433.5,
+      "height": 122
+    },
+    "lowerSection": {
+      "left": 71.4,
+      "top": 553.5,
+      "right": 1848.6,
+      "bottom": 1043.8,
+      "width": 1777.2,
+      "height": 490.3
+    },
+    "cityOverview": {
+      "left": 71.4,
+      "top": 553.5,
+      "right": 1117.6,
+      "bottom": 1043.8,
+      "width": 1046.2,
+      "height": 490.3
+    },
+    "trendsCard": {
+      "left": 1132,
+      "top": 553.5,
+      "right": 1848.6,
+      "bottom": 792.7,
+      "width": 716.6,
+      "height": 239.2
+    },
+    "deptCard": {
+      "left": 1132,
+      "top": 804.6,
+      "right": 1848.6,
+      "bottom": 1043.8,
+      "width": 716.6,
+      "height": 239.2
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 89.3,
+      "top": 617.2,
+      "right": 1099.7,
+      "bottom": 1026,
+      "width": 1010.4,
+      "height": 408.8
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "1912x1002": {
+    "viewport": "1912x1002",
+    "s": 1.1183035714285714,
+    "scrollHeight": 1002,
+    "innerHeight": 1002,
+    "noScroll": true,
+    "expectedMargin": 71.1,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 71.1,
+      "top": 33.6,
+      "right": 1840.9,
+      "bottom": 114.1,
+      "width": 1769.8,
+      "height": 80.5
+    },
+    "heroRow": {
+      "left": 71.1,
+      "top": 114.1,
+      "right": 1840.9,
+      "bottom": 400.3,
+      "width": 1769.8,
+      "height": 286.2
+    },
+    "heroTitle": {
+      "left": 71.1,
+      "top": 188.6,
+      "right": 354.2,
+      "bottom": 245.7,
+      "width": 283.1,
+      "height": 57
+    },
+    "heroTagline": {
+      "left": 71.1,
+      "top": 248.5,
+      "right": 556,
+      "bottom": 264.1,
+      "width": 484.8,
+      "height": 15.7
+    },
+    "heroDatePill": {
+      "left": 1673.4,
+      "top": 195.3,
+      "right": 1840.9,
+      "bottom": 238.9,
+      "width": 167.5,
+      "height": 43.6
+    },
+    "kpiRow": {
+      "left": 71.1,
+      "top": 400.3,
+      "right": 1840.9,
+      "bottom": 513.5,
+      "width": 1769.8,
+      "height": 113.2
+    },
+    "kpiTotal": {
+      "left": 71.1,
+      "top": 400.3,
+      "right": 502.8,
+      "bottom": 513.5,
+      "width": 431.7,
+      "height": 113.2
+    },
+    "kpiResolved": {
+      "left": 517.1,
+      "top": 400.3,
+      "right": 948.8,
+      "bottom": 513.5,
+      "width": 431.7,
+      "height": 113.2
+    },
+    "kpiInProgress": {
+      "left": 963.2,
+      "top": 400.3,
+      "right": 1394.8,
+      "bottom": 513.5,
+      "width": 431.7,
+      "height": 113.2
+    },
+    "kpiUnresolved": {
+      "left": 1409.2,
+      "top": 400.3,
+      "right": 1840.9,
+      "bottom": 513.5,
+      "width": 431.7,
+      "height": 113.2
+    },
+    "lowerSection": {
+      "left": 71.1,
+      "top": 513.5,
+      "right": 1840.9,
+      "bottom": 968.4,
+      "width": 1769.8,
+      "height": 454.9
+    },
+    "cityOverview": {
+      "left": 71.1,
+      "top": 513.5,
+      "right": 1113,
+      "bottom": 968.4,
+      "width": 1041.8,
+      "height": 454.9
+    },
+    "trendsCard": {
+      "left": 1127.3,
+      "top": 513.5,
+      "right": 1840.9,
+      "bottom": 735.5,
+      "width": 713.6,
+      "height": 221.9
+    },
+    "deptCard": {
+      "left": 1127.3,
+      "top": 746.5,
+      "right": 1840.9,
+      "bottom": 968.4,
+      "width": 713.6,
+      "height": 222
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 87.8,
+      "top": 572.7,
+      "right": 1096.3,
+      "bottom": 951.8,
+      "width": 1008.5,
+      "height": 379.1
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "2560x1440": {
+    "viewport": "2560x1440",
+    "s": 1.6071428571428572,
+    "scrollHeight": 1440,
+    "innerHeight": 1440,
+    "noScroll": true,
+    "expectedMargin": 95.2,
+    "marginMatchesNavbar": true,
+    "navbar": {
+      "left": 95.2,
+      "top": 48.2,
+      "right": 2464.8,
+      "bottom": 164,
+      "width": 2369.6,
+      "height": 115.8
+    },
+    "heroRow": {
+      "left": 95.2,
+      "top": 164,
+      "right": 2464.8,
+      "bottom": 575.3,
+      "width": 2369.6,
+      "height": 411.3
+    },
+    "heroTitle": {
+      "left": 95.2,
+      "top": 271.1,
+      "right": 502,
+      "bottom": 353,
+      "width": 406.8,
+      "height": 82
+    },
+    "heroTagline": {
+      "left": 95.2,
+      "top": 357.1,
+      "right": 792.3,
+      "bottom": 379.6,
+      "width": 697,
+      "height": 22.5
+    },
+    "heroDatePill": {
+      "left": 2224.9,
+      "top": 280.7,
+      "right": 2464.8,
+      "bottom": 343.4,
+      "width": 239.8,
+      "height": 62.7
+    },
+    "kpiRow": {
+      "left": 95.2,
+      "top": 575.3,
+      "right": 2464.8,
+      "bottom": 738,
+      "width": 2369.6,
+      "height": 162.7
+    },
+    "kpiTotal": {
+      "left": 95.2,
+      "top": 575.3,
+      "right": 673.2,
+      "bottom": 738,
+      "width": 578,
+      "height": 162.7
+    },
+    "kpiResolved": {
+      "left": 692.4,
+      "top": 575.3,
+      "right": 1270.4,
+      "bottom": 738,
+      "width": 578,
+      "height": 162.7
+    },
+    "kpiInProgress": {
+      "left": 1289.6,
+      "top": 575.3,
+      "right": 1867.6,
+      "bottom": 738,
+      "width": 578,
+      "height": 162.7
+    },
+    "kpiUnresolved": {
+      "left": 1886.8,
+      "top": 575.3,
+      "right": 2464.8,
+      "bottom": 738,
+      "width": 578,
+      "height": 162.7
+    },
+    "lowerSection": {
+      "left": 95.2,
+      "top": 738,
+      "right": 2464.8,
+      "bottom": 1391.8,
+      "width": 2369.6,
+      "height": 653.8
+    },
+    "cityOverview": {
+      "left": 95.2,
+      "top": 738,
+      "right": 1490.2,
+      "bottom": 1391.8,
+      "width": 1394.9,
+      "height": 653.8
+    },
+    "trendsCard": {
+      "left": 1509.3,
+      "top": 738,
+      "right": 2464.8,
+      "bottom": 1057,
+      "width": 955.4,
+      "height": 319
+    },
+    "deptCard": {
+      "left": 1509.3,
+      "top": 1072.8,
+      "right": 2464.8,
+      "bottom": 1391.8,
+      "width": 955.4,
+      "height": 319
+    },
+    "equalHeights": true,
+    "mapContainer": {
+      "left": 118.7,
+      "top": 822.6,
+      "right": 1466.7,
+      "bottom": 1368.3,
+      "width": 1347.9,
+      "height": 545.7
+    },
+    "markersCount": 10,
+    "chartTexts": {
+      "trends": [
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "0",
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "dept": [
+        "Road Damage",
+        "WasteDisposal",
+        "WaterLeakage",
+        "Street Light",
+        "Others",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100",
+        "92",
+        "68",
+        "56",
+        "24",
+        "8"
+      ]
+    }
+  },
+  "safetyNet": {
+    "960x640": {
+      "viewport": "960x640",
+      "scrollHeight": 640,
+      "innerHeight": 640,
+      "hasVerticalScroll": false,
+      "kpiRowCols": "454px 454px"
+    },
+    "1200x650": {
+      "viewport": "1200x650",
+      "scrollHeight": 650,
+      "innerHeight": 650,
+      "hasVerticalScroll": false,
+      "kpiRowCols": "574px 574px"
+    }
+  }
+}

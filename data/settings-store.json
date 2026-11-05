@@ -1,0 +1,86 @@
+{
+  "adminName": "Er. K. Sivakumar",
+  "adminDesignation": "Executive Engineer / Civic Operations Admin, Chennai North & South",
+  "slaHours": {
+    "Critical": 12,
+    "High": 24,
+    "Medium": 48,
+    "Low": 72
+  },
+  "autoAssignmentEnabled": true,
+  "strictPhotoVerification": true,
+  "notifyOnlyRegisteredCitizens": true,
+  "priorityRules": [
+    {
+      "id": "PR-01",
+      "name": "Major Arterial Road Safety",
+      "category": "Road Damage",
+      "keywords": [
+        "crater",
+        "cave-in",
+        "bus route",
+        "highway",
+        "anna salai",
+        "gst road",
+        "deep pothole",
+        "accident risk"
+      ],
+      "assignedPriority": "Critical",
+      "scoreBonus": 40,
+      "description": "Critical risk for arterial roads and high-speed corridors in Chennai.",
+      "enabled": true
+    },
+    {
+      "id": "PR-02",
+      "name": "Severe Water Main Burst & Contamination",
+      "category": "Water Leakage",
+      "keywords": [
+        "burst",
+        "main line",
+        "flooding",
+        "contamination",
+        "drinking water",
+        "sewage mixed"
+      ],
+      "assignedPriority": "Critical",
+      "scoreBonus": 35,
+      "description": "Public health danger from major water distribution damage or contaminated supply.",
+      "enabled": true
+    },
+    {
+      "id": "PR-03",
+      "name": "Hospital / School Zone Waste Pileup",
+      "category": "Improper Waste Disposal",
+      "keywords": [
+        "hospital",
+        "clinic",
+        "school",
+        "children",
+        "biohazard",
+        "overflow",
+        "dead animal",
+        "stagnant"
+      ],
+      "assignedPriority": "High",
+      "scoreBonus": 30,
+      "description": "Sanitary risk adjacent to schools, hospitals, or dense residential slums.",
+      "enabled": true
+    },
+    {
+      "id": "PR-04",
+      "name": "General Street Defect Standard Routine",
+      "category": "All",
+      "keywords": [
+        "minor",
+        "crack",
+        "drainage slow",
+        "gravel",
+        "litter"
+      ],
+      "assignedPriority": "Low",
+      "scoreBonus": 10,
+      "description": "Standard domestic street maintenance SLA.",
+      "enabled": true
+    }
+  ]
+}

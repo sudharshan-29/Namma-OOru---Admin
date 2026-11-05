@@ -1,0 +1,131 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isEmailVerified() {
+      return ('email_verified' in request.auth.token) && request.auth.token.email_verified == true;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Administrator Authorization Gate:
+    // Requires verified email token and match against authorized administrative records
+    function isAdmin() {
+      return isSignedIn() && isEmailVerified() && (
+        (('email' in request.auth.token) && request.auth.token.email == 'dhivyadharshinivijay@gmail.com') ||
+        (('admin' in request.auth.token) && request.auth.token.admin == true) ||
+        (exists(/databases/$(database)/documents/admins/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.role in ['admin', 'superadmin'])
+      );
+    }
+
+    // Admins Collection: Strictly server-managed; client writes are completely forbidden
+    match /admins/{adminId} {
+      allow read: if isSignedIn() && (request.auth.uid == adminId || isAdmin());
+      allow write: if false;
+    }
+
+    // Validation Blueprint for Complaints
+    function isValidComplaint(data) {
+      return data.id is string && data.id.size() <= 64 &&
+             data.category in ['Road Damage', 'Improper Waste Disposal', 'Water Leakage'] &&
+             data.description is string && data.description.size() <= 2000 &&
+             data.priority in ['Critical', 'High', 'Medium', 'Low'] &&
+             data.status in [
+               'Received',
+               'Prioritized',
+               'Assigned',
+               'In Progress',
+               'Evidence Submitted',
+               'Awaiting Admin Verification',
+               'Resolved'
+             ] &&
+             data.reporterType in ['Registered Citizen', 'Anonymous Reporter'];
+    }
+
+    // Complaints Collection
+    match /complaints/{complaintId} {
+      // Reads: Admins can read all complaints. Authenticated citizens can only read their own reports.
+      allow get: if isValidId(complaintId) && (isAdmin() || (isSignedIn() && resource.data.reporterId == request.auth.uid));
+      allow list: if isAdmin() || (isSignedIn() && resource.data.reporterId == request.auth.uid);
+
+      // Create: Citizens or Admins can submit new civic complaints
+      allow create: if isValidId(complaintId) &&
+                       isValidComplaint(incoming()) &&
+                       (isAdmin() || (
+                         incoming().status in ['Received', 'Prioritized', 'Assigned'] &&
+                         (incoming().reporterType == 'Anonymous Reporter' ||
+                          (incoming().reporterType == 'Registered Citizen' && incoming().reporterId == request.auth.uid))
+                       ));
+
+      // Update: ONLY authorized Admins can update status, triage, reassign, or record verification
+      allow update: if isValidId(complaintId) &&
+                       isAdmin() &&
+                       isValidComplaint(incoming()) &&
+                       incoming().id == existing().id &&
+                       incoming().createdAt == existing().createdAt;
+
+      // Delete: Strictly forbidden to maintain administrative audit integrity
+      allow delete: if false;
+    }
+
+    // Resolution Evidence Collection: Protected repair photos and verification state
+    function isValidEvidence(data) {
+      return data.complaintId is string && data.complaintId.size() <= 64 &&
+             data.submittingDepartment is string && data.submittingDepartment.size() <= 256 &&
+             data.afterRepairPhotoUrl is string && data.afterRepairPhotoUrl.size() <= 2048;
+    }
+
+    match /resolutionEvidence/{evidenceId} {
+      allow get, list: if isValidId(evidenceId) && isAdmin();
+      allow create: if isValidId(evidenceId) && isAdmin() && isValidEvidence(incoming());
+      allow update: if isValidId(evidenceId) && isAdmin() && isValidEvidence(incoming()) && incoming().complaintId == existing().complaintId;
+      allow delete: if false;
+    }
+
+    // Citizen Notifications Collection: Private notifications
+    match /notifications/{notificationId} {
+      // Registered citizens can only read their own notifications. Admins can view all.
+      allow get: if isValidId(notificationId) &&
+                    (isAdmin() || (isSignedIn() && resource.data.recipientId == request.auth.uid));
+      allow list: if isAdmin() || (isSignedIn() && resource.data.recipientId == request.auth.uid);
+
+      // Only administrators can create or update notification records
+      allow create: if isValidId(notificationId) && isAdmin();
+      allow update: if isValidId(notificationId) && isAdmin();
+      allow delete: if false;
+    }
+
+    // Audit Logs Collection: Strictly Append-Only, No client updates or deletes
+    match /auditLogs/{logId} {
+      allow get, list: if isValidId(logId) && isAdmin();
+      allow create: if isValidId(logId) && isAdmin();
+      allow update, delete: if false;
+    }
+
+    // System Settings Collection
+    match /settings/{settingId} {
+      allow get, list: if isAdmin();
+      allow write: if isValidId(settingId) && isAdmin();
+    }
+  }
+}
